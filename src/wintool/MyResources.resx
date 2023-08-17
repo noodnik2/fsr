@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="StatusBusy">
+		<value>Busy...</value>
+	</data>
+	<data name="StatusReady">
+		<value>Ready</value>
+	</data>
+	<data name="StatusSelectInput">
+		<value>Please Select Input Source</value>
+	</data>
+	<data name="StatusSelectOutput">
+		<value>Please Select Output Destination</value>
+	</data>
+	<data name="StatusEnterVideoDescription">
+		<value>Enter Video Name and Description Information</value>
+	</data>
+	<data name="StatusEnterStartSecond">
+		<value>Enter Starting Second (within GPS Sequence) for Video</value>
+	</data>
+	<data name="StatusEnterTotalSeconds">
+		<value>Enter Total Seconds (Maximum) for Video</value>
+	</data>
+	<data name="StatusEnterMinimumAltitude">
+		<value>Enter Minimum Altitude</value>
+	</data>
+	<data name="PromptOKContinue">
+		<value>Press OK when ready to continue...</value>
+	</data>
+	<data name="PromptOKFileReplace">
+		<value>{0} already exists; OK to replace?</value>
+	</data>
+	<data name="TitleVideoPlayback">
+		<value>Video Playback</value>
+	</data>
+	<data name="TitleGPSConversionParmDialog">
+		<value>GPS Conversion Parameters</value>
+	</data>
+	<data name="TitleConfirmFileReplacement">
+		<value>Confirm File Replacement</value>
+	</data>
+	<data name="TitleFSRTool">
+		<value>FSR Conversion Tool</value>
+	</data>
+	<data name="MessageDefaultVideoName">
+		<value>Video of {0}</value>
+	</data>
+	<data name="MessageDefaultVideoDescription">
+		<value>Video Generated from {0} on {1} </value>
+	</data>
+	<data name="FileDlgFilterInput">
+		<value>NMEA Stream (*.nmea)|*.nmea|GPS eXchange Format (*.gpx)|*.gpx|PalmOS GPS App Log (*.pdb)|*.pdb|FS Video Text (*.xml)|*.xml|FS Video (*.fsr)|*.fsr|All Files (*.*)|*.*</value>
+		<comment>delete this</comment>
+	</data>
+	<data name="FileDlgFilterOutput">
+		<value>FS Video (*.fsr)|*.fsr|FS Video Text (*.xml)|*.xml|NMEA Stream (*.nmea)|*.nmea|All Files (*.*)|*.*</value>
+	</data>
+	<data name="CmdOk">
+		<value>OK</value>
+	</data>
+	<data name="CmdCancel">
+		<value>Cancel</value>
+	</data>
+	<data name="CmdPlay">
+		<value>Play</value>
+	</data>
+	<data name="CmdExit">
+		<value>Exit</value>
+	</data>
+	<data name="CmdConvert">
+		<value>Convert</value>
+	</data>
+	<data name="RadioToSimulator">
+		<value>Play In Simulator, using:</value>
+	</data>
+	<data name="GroupInput">
+		<value>Input</value>
+	</data>
+	<data name="GroupOutput">
+		<value>Output</value>
+	</data>
+	<data name="TabInternalName">
+		<value>Internal Name</value>
+	</data>
+	<data name="TabAltitudes">
+		<value>Altitudes</value>
+	</data>
+	<data name="TabTimeParms">
+		<value>Time Sequence</value>
+	</data>
+	<data name="TabOptions">
+		<value>Options</value>
+	</data>
+	<data name="LabelInternalDescription">
+		<value>Description:</value>
+	</data>
+	<data name="LabelInternalName">
+		<value>Name:</value>
+	</data>
+	<data name="LabelTicksPerSec">
+		<value>Ticks Per Second:</value>
+	</data>
+	<data name="LabelMinimumAltSuffix">
+		<value>ft. (MSL)</value>
+	</data>
+	<data name="CheckResequenceTo">
+		<value>Resequence To:</value>
+	</data>
+	<data name="CheckStartSec">
+		<value>Starting Second:</value>
+	</data>
+	<data name="CheckTotalSec">
+		<value>Total Seconds:</value>
+	</data>
+	<data name="CheckMinimumAlt">
+		<value>Minimum Altitude:</value>
+	</data>
+	<data name="CheckReduceJitter">
+		<value>Reduce Jitter</value>
+	</data>
+	<data name="CPHelpCtl_tbName">
+		<value>Internal name of video; listed in Flight Simulator's Flight Video dialog as name of video</value>
+	</data>
+	<data name="CPHelpCtl_tbDescription">
+		<value>Internal description of video; listed in Flight Simulator's Flight Video dialog as description of video</value>
+	</data>
+	<data name="CPHelpCtl_cbStartSec">
+		<value>Used to skip the specified number of seconds from the beginning of the GPS sequence</value>
+	</data>
+	<data name="CPHelpCtl_cbTotalSec">
+		<value>Used to limit the length of the video to the specified number of seconds, maximum</value>
+	</data>
+	<data name="CPHelpCtl_cbResequenceTo">
+		<value>Used to resequence the time sequence to the specified date and time (instead of using the date and time recorded in the GPS sequence)</value>
+	</data>
+	<data name="CPHelpCtl_ntbTicksPerSec">
+		<value>Used to set the number of video frames generated per second (affects file size)</value>
+	</data>
+	<data name="CPHelpCtl_cbMinimumAlt">
+		<value>Sets the 'minimum altitude' allowed in the video (useful if part of GPS sequence was recorded on while on the ground)</value>
+	</data>
+	<data name="CPHelpCtl_cbReduceJitter">
+		<value>Selects heuristics to help reduce jumpiness resulting from variability in GPS data (experimental feature)</value>
+	</data>
+	<data name="HelpNone">
+		<value>No help available for this item.</value>
+	</data>
+	<data name="StatusSelectValidOperation">
+		<value>Please Reselect; Current Operation Not Supported</value>
+	</data>
+	<data name="TitleViewLog">
+		<value>FSR Conversion Tool Operation Log</value>
+	</data>
+	<data name="CmdViewLog">
+		<value>Log</value>
+	</data>
+	<data name="FilterFSR">
+		<value>FS Video (*.fsr)|*.fsr</value>
+	</data>
+	<data name="FilterPNL">
+		<value>Pathaway NMEA Log (*.pnl)|*.pnl</value>
+	</data>
+	<data name="FilterNMEA">
+		<value>NMEA data (*.nmea)|*.nmea</value>
+	</data>
+	<data name="FilterGPX">
+		<value>GPS eXchange Format (*.gpx)|*.gpx</value>
+	</data>
+	<data name="FilterXML">
+		<value>FS Video Text (*.xml)|*.xml</value>
+	</data>
+	<data name="FilterAll">
+		<value>All Files (*.*)|*.*</value>
+	</data>
+	<data name="FilterSTAT">
+		<value>Statistical Output (*.stat)|*.stat</value>
+	</data>
+	<data name="HelpCtl_tbSourceFn">
+		<value>Enter source file name.  Use drop-down in Source file selection dialog to see supported types for selected target (if any)</value>
+	</data>
+	<data name="HelpCtl_tbDestFn">
+		<value>Enter target file name.  Use drop-down in Destination file selection dialog to see supported types for selected source (if any)</value>
+	</data>
+	<data name="HelpCtl_rbToSim">
+		<value>Check to (convert, if necessary, and) play source file in Simulator</value>
+	</data>
+	<data name="HelpCtl_rbToFile">
+		<value>Check to convert indicated source file to indicated destination file</value>
+	</data>
+	<data name="HelpCtl_cbPlayMethod">
+		<value>Select method for playing video in Simulator</value>
+	</data>
+	<data name="HelpCtl_btnViewLogCmd">
+		<value>Push to view log generated by previous operation</value>
+	</data>
+	<data name="HelpCtl_btnSourceFileOpen">
+		<value>Push to open Source file selection dialog</value>
+	</data>
+	<data name="HelpCtl_btnDestFileOpen">
+		<value>Push to open Destination file selection dialog</value>
+	</data>
+	<data name="FilterCTL">
+		<value>Cetus Track Log (*.ctl)|*.ctl</value>
+	</data>
+	<data name="PMSEL_File">
+		<value>Disk File</value>
+	</data>
+	<data name="PMSEL_Pipe">
+		<value>Pipe</value>
+	</data>
+	<data name="PMSEL_FSUIPC">
+		<value>FSUIPC</value>
+	</data>
+	<data name="CmdHelp">
+		<value>Help</value>
+	</data>
+	<data name="HelpCtl_btnHelpCmd">
+		<value>Open Help Browser</value>
+	</data>
+	<data name="HelpCtl_btnConvertCmd">
+		<value>Invoke currently selected play or convert operation</value>
+	</data>
+	<data name="HelpCtl_btnExitCmd">
+		<value>Exit this program</value>
+	</data>
+</root>

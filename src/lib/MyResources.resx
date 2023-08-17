@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="StatusOperationAborted">
+		<value>Operation Aborted.</value>
+	</data>
+	<data name="StatusOperationCanceled">
+		<value>Operation Canceled.</value>
+	</data>
+	<data name="StatusOperationCompleted">
+		<value>Operation Completed.</value>
+	</data>
+	<data name="StatusCantFindSimulator">
+		<value>Can't find running Simulator.</value>
+	</data>
+	<data name="StatusGeneratingTemporaryVideo">
+		<value>Generating temporary Simulator video file...</value>
+	</data>
+	<data name="StatusPlayingVideo">
+		<value>Playing Video in Simulator...</value>
+	</data>
+	<data name="StatusVideoDelivered">
+		<value>Video delivered to simulator.</value>
+	</data>
+	<data name="StatusOperationNotSupported">
+		<value>Specified Operation Not Supported.</value>
+	</data>
+	<data name="StatusFileNotFound">
+		<value>File '{0}' Not Found.</value>
+	</data>
+	<data name="StatusNowPlaying">
+		<value>Simulator now playing: {0}</value>
+	</data>
+	<data name="StatusUnexpectedError">
+		<value>{0}</value>
+	</data>
+	<data name="StatusStreamParserError">
+		<value>Parser error: {0}</value>
+	</data>
+	<data name="StatusStreamParserDiscard">
+		<value>Parser discarded: "{0}"</value>
+	</data>
+	<data name="StatusInvalidFile">
+		<value>Invalid or corrupt input file</value>
+	</data>
+	<data name="EXT_FSR">
+		<value>.fsr</value>
+	</data>
+	<data name="EXT_NMEA">
+		<value>.nmea</value>
+	</data>
+	<data name="EXT_CTL">
+		<value>.ctl</value>
+	</data>
+	<data name="EXT_GPX">
+		<value>.gpx</value>
+	</data>
+	<data name="EXT_XML">
+		<value>.xml</value>
+	</data>
+	<data name="EXT_STAT">
+		<value>.stat</value>
+	</data>
+	<data name="EXT_PNL">
+		<value>.pnl</value>
+	</data>
+</root>

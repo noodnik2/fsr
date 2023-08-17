@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1"/>
+<Title>Conversion Parameters</Title>
+</HEAD>
+<BODY>
+
+<a name="gcpdialog"/><h2>GPS Conversion Parameter Dialog</h2>
+The <b>GPS Conversion Parameters</b> dialog is used to customize the translation from GPS track log data into the flight simulator "video" sequence.
+<p/>
+If you wish to accept the default settings, simply press the <b>OK</b> button and the conversion or playback operation will commence.  Pressing the <b>Cancel</b> button will cancel the operation.
+<p/>
+<a name="gcptabnames"/><h2>The Names Tab</h2>
+<img src="GCPDialogNames.gif"/>
+<br/>
+Here you can customize the video name and description as it will appear in the Microsoft Flight Simulator menu of saved flight videos.
+<p/>
+<a name="gcptabtimes"/><h2>The Times Tab</h2>
+<img src="GCPDialogTimes.gif"/>
+<br/>
+Using this dialog, you can control the segment of the GPS track for translation by specifying the <b>Starting Second</b> (within the GPS track log), and the <b>Total Seconds</b> (length of the resulting video).  This enables you to convert or playback only a selected portion of your total recorded track log.
+<p/>
+Also, you can <b>Resequence</b> the video so that it is played back in the simulator at a date/time of your choosing (instead of the original date/time that the GPS track log was recorded).
+<p/>
+The <b>Ticks Per Second</b> value can be used to control the target number of frames per second in the resulting "video", as delivered to the simulator for playback.  This number should be set to the approximate number of frames per second your computer/graphics system achieves, but the default value of 18 is a good starting value.
+<p/>
+<a name="gcptabalts"/><h2>The Altitudes Tab</h2>
+<img src="GCPDialogAlts.gif"/>
+<br/>
+This tab is used to set any altitude-related parameters.  Currently, there is only a single such parameter: the <b>Minimum Altitude</b> value which places a lower restriction on the altitude (in feet) that will ever be used during the simulation (if the an altitude lower than this is recorded in the GPS track log it will be set to this value before being delivered to the simulator).  This can be useful for situations where there is actual "ground interaction" recorded in the track log (such as during take-offs or landings) in order to prevent the simulator from detecting a crash.
+<p/>
+<a name="gcptabopts"><h2>The Options Tab</h2>
+<img src="GCPDialogOpts.gif"/>
+<br/>
+The <b>Options</b> tab is used for other options affecting the translation.  This tab is used to host experimental or debugging options.
+</BODY>
+</HTML>

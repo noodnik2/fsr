@@ -1,0 +1,71 @@
+DATE:	April 25th, 2004
+FROM:	Marty Ross
+RE:	First Release of Flight Simulator Replay
+
+
+This is the README file accompanying the first general release of the Flight
+Simulator Replay (fsr) program.
+
+In the normal case, Flight Simulator Replay is installed into the "Program Files" directory, e.g.:
+
+	"C:\Program Files\Marty Ross\Flight Simulator Replay"
+
+The samples that are included (if you checked the "Include Samples?" check-
+box during installation) are actual recordings of flights I've taken.  There
+are several ".ctl" (Cetus Gps) recordings and a single NMEA data stream.  In
+order to "run" these samples, do the following:
+
+(1) start Microsoft Flight Simulator
+
+(2) start the Flight Simulator Replay (fsr) program
+
+(3) load one of the sample files (located in the
+	"Samples" sub-directory) by using the browse
+	button in the "Input" area
+
+(4) [optional] first convert the track log file
+	to FSR (Flight Simulator Recording) format by
+	entering a filename with the extension ".fsr"
+	into the "Output" area and clicking on the
+	"Convert" button.  You can either play the
+	resulting video by loading it into the
+	simulator's "Play Video" function, or by
+	copying the FSR file name into the "Input"
+	area and clicking the "Play" button (as in
+	step #5, below)
+	 
+(5) play the file directly in Flight Simulator by
+	checking the "Play in simulator" button, then
+	clicking the "Play" button.  You should then
+	see Microsoft Flight Simulator start to load
+	the necessary scenery and start the playback.
+	
+Here are the flight tracklogs's that are in "Samples":
+			
+	0404OAK2LAXP1.ctl
+	0404OAK2LAXP2.ctl
+		These two track logs are actually the entire trip from
+		KOAK to KLAX in a B-737.  There's a really nice 360 turn
+		for spacing that you'll see on the downwind for LAX.
+
+	031114-05u.nmea
+		This one was a while ago, but I think it's some pattern
+		practice at Santa Monica in Skyward's Grumman AA1-C trainer.
+	
+	la_tour.ctl
+		This is some pattern work and a scenic trip around Los
+		Angeles downtown in a Cherokee Warrior PA-161.
+	
+	smo_pat-dave.ctl
+		My friend Dave in a loop around the SMO pattern.
+
+
+Please send feedback to:
+
+	smoflyer@hotmail.com
+	
+
+Enjoy!
+
+
+end of readme.txt

@@ -1,0 +1,22 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.0
+Compiled file=fsrwintool.chm
+Contents file=Table of Contents.hhc
+Default topic=fsrwintool.htm
+Display compile notes=No
+Display compile progress=No
+Error log file=compile.log
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=fsrwintool Help
+
+
+[FILES]
+fsrwintool.htm
+MainDialog.htm
+GCPDialog.htm
+FSUIPC.htm
+
+[INFOTYPES]
+

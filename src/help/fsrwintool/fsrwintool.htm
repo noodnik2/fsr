@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>fsr</Title>
+</HEAD>
+<BODY>
+
+<table width="100%">
+<tr>
+   <td valign=top align=left>
+      <font size="+3"><B>fsr -- </B></font>
+      <font size="+2">Flight Simulator Replay</font><br>
+      <font size="+1">Copyright (C) 2004, Marty Ross</font>
+   </td>
+   <td valign=top align=right rowspan=2>
+      <img src="fsrtool96x256.gif"/>
+   </td>
+</tr>
+<tr>
+   <td valign=bottom>
+      <i>(Corresponds to fsr Version 1.0.1492 on February 1st, 2004)</i>
+   </td>
+</tr>
+</table>
+
+<hr/>
+<a name="thevision"/><h2>The Vision</h2>
+While some Flight Simulator fans are interested in using the moving map display on a GPS device to record and track the progress of a simulated flight, <b>fsr</b> represents my interest in using the playback feature of Flight Simulator to review and analyze <i>actual</i> GPS tracks of flight maneuvers and approaches I make while practicing my private pilot skills - to "replay" my flights in Flight Simulator.  By the way - that's me (in the picture) in <a href="http://www.skyward-aviation.com" target="_blank">Skyward Aviation's</a> AA1-C trainer, during my first solo landing in front of the tower at KSMO!
+<p/>
+Now, almost every time I fly, I take my GPS handheld device in the plane with me and leave it in "track record" mode.  When I come back home, I can "replay" my flight (or portions of it) in Flight Simulator by using <b>fsr</b>.  I can use Flight Simulator's alternate views (e.g., cockpit, spot plane, map. etc.) to get different perspectives about my flight, and I can watch my ground track, groundspeed, altitude and other aspects from the comfort of my armchair as my actual experience is simulated in the replay.
+
+<a name="thereality"/><h2>The Reality</h2>
+<b>fsr</b> is actually the result of a desire to embrace <a href="#thevision">The Vision</a>, and to learn to program in the Microsoft .NET framework, in C#.  That is why you need Microsoft's <a href="http://msdn.microsoft.com/netframework/" target="_blank">.NET Framework</a> in order to run <b>fsr</b> (<b>fsr</b> was developed on .NET Framework version 1.0 but should work with version 1.1 as well).  Currently, <b>fsr</b> works only with Microsoft Flight Simulator 2002 and Microsoft Flight Simulator 2004.
+<p/>
+While I've reached many of the goals I set out to achieve when I first started creating <b>fsr</b>, the product is currently less useful than I had hoped (and still hope) it could be someday.  Technical difficulties that take time to diagnose and circumvent (mainly in interfacing with Flight Simulator) slowed development, and many such problems are still at large.  The two areas I would most like to make improvements are:
+<p/>
+<dl>
+<dt><strong>Increased Playback Smoothness</strong><dt/>
+<dd>
+The simulated airplane flys a very choppy/jittery path using both supported methods for replaying the flight in the simulator.  I'm confident that the data I'm sending to the simulator - a default of 18 frames per second - are smooth (as I've demonstrated through statistical analysis), so I'm suspecting the simulator needs some <I>other</I> data that I'm not currently providing, to make it happy.</dd>
+<p/>
+<dt><strong>Increased Realism</strong></dt>
+<dd>
+Because the GPS only records position, altitude, groundspeed and course, I'll never be able to see or analyze some of the details of the actual experience that I'd like to - such as airspeed, bank angle, use of the controls or the engine settings, etc.  However, for aesthetic reasons, I've tried to identify some of the easiest of these things to infer mathematically.  For instance, <b>fsr</b> currently imputes pitch and bank, but this is at best just "eye candy" - the actual realism of the replay isn't improved since these are not based upon actual observations.</dd>
+</dl>
+
+<p/>
+<a name="thedialogs"/><h2>The Dialogs</h2>
+The user interface for <b>fsr</b> is provided by a <a href="MainDialog.htm">main</a> dialog and a <a href="GCPDialog.htm">conversion parameters</a> dialog (you can read more about these dialogs by following the links).
+<p/>
+
+<a name="thefuture"/><h2>The Future</h2>
+In addition to solving the remaining problems, the following enhancements are currently envisioned:
+<dl>
+<dt><strong>Multiplayer Playback Method</strong></dt>
+<dd>
+In "multiplayer playback mode", <b>fsr</b> would create a "player" that would appear in a Flight Simulator Multiplayer Session, flying the recorded track.  In this mode, other players in the session could interact with (or observe) the fsr-generated flight from different perspectives than are now possible using the other two play methods.</dd>
+<p/>
+<dt><strong>Integrating Other Real-time Data Sources</strong></dt>
+<dd>
+Richer and/or external data streams could be synchronized with the GPS track data collected from the flight and merged into the playback.  For example:
+<ul type="circle">
+<li/>The data stream sent to the flight data recorder on commercial aircraft (such as actual pitch/bank angles and control inputs) could provide detail that could be used to produce a very realistic simulation of an actual flight.
+<li/>Audio or other time-sequenced materials (such as ATC interactions) related to the actual flight could be synchronized with the simulator playback in order to increase the "next best thing to being there" effect.  One idea was to enable the pilot to create "timestamps" by pressing a button on the GPS device at key moments during an actual flight.  Later, these timestamps could be annotated and these annotations displayed within the simulator at the appropriate time within the flight replay.
+</ul>
+<p/>
+<dt><strong>Support for other Simulators</strong></dt>
+<dd>
+Current candidates are <a href="http://www.flightgear.org/" target="_blank">Flight Gear</a> and <a href="http://www.x-plane.com/" target="_blank">X-Plane</a>, but the concept easily extends itself to terrestrial and marine simulators as well.</dd>
+</dl>
+
+<p/>
+<a name="thepitch"/><h2>The Pitch</h2>
+If you find <b>fsr</b> to be more than just a curiosity and feel you would like to help to improve it, please send an e-mail to <a href="mailto:smoflyer@hotmail.com">smoflyer@hotmail.com</a>, telling me of your ideas!
+<p/>
+</BODY>
+</HTML>

@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1"/>
+<Title>MainDialog</Title>
+</HEAD>
+<BODY>
+<a name="maindialoglayout"/><h2>Main Dialog Layout</h2>
+<img src="MainDialog.gif"/>
+<br/>
+This is the main dialog of the <b>fsr</b> program.  From this dialog, it is possible to invoke both of the basic fsr operations: <b>Conversion</b> and <b>Playback</b>.
+<p/>
+<dl>
+<dt><strong>Conversion</strong></dt>
+<dd>
+A conversion operation requires you to specify both the input and the output file names; the conversion type is implied by the extensions of both files.  If the specified conversion operation is supported, the <b>Convert</b> button will be enabled; pressing it will initiate the conversion operation.</dd>
+<p/>
+<dt><strong>Playback</strong></dt>
+<dd>
+A playback operation is selected by entering an input file and checking the <b>Play in simulator</b> radio button.  The playback method is then specified in the drop-down list that is to the right of the button.  If the playback operation indicated by this selection is supported, then the <b>Play</b> button will be enabled; pressing it will initiate the playback process.</dd>
+<p/>
+The following set of playback methods is currently supported:
+<p/>
+<table border=2 cellpadding=3 width="85%">
+<tr>
+	<th align=center>Method</th>
+	<th align=center>Description</th>
+</tr>
+<tr>
+	<th align=center valign=middle>Disk File</th>
+	<td>
+		Plays the disk file specified in the <i>Input</i> section directly in
+		the simulator.  If a conversion is necessary (e.g. if the simulator
+		does not support direct playback of the file type indicated in
+		<i>Input</i>, a temporary file will be created, played and then
+		erased.  The playback file's name is "handed" to the Simulator
+		instead of sending the contents of this file to the simulator as a stream.
+	</td>
+</tr>
+<tr>
+	<th align=center valign=middle>Pipe</th>
+	<td>
+		Plays the disk file specified in the <i>Input</i> section directly in
+		the simulator, but uses an "anonymous pipe" to stream the video
+		to the simulator instead of handing the file's name to the simulator,
+		as in the case of "Disk File" (above).  Also, as in the case of
+		"Disk File", a temporary file is created (and then deleted) if
+		necessary in order to carry out this operation. 
+	</td>
+</tr>
+<tr>
+	<th align=center valign=middle>FSUIPC</th>
+	<td>
+		This operation works like "Pipe" (above), but instead of using an
+		anonymous pipe to send the video the simulator, it uses Peter
+		Dowson's <a href="FSUIPC.htm">FSUIPC facility</a>, which must
+		be installed and configured (follow the link for more information).
+	</td>
+</tr>
+</table>
+
+</dl>
+<p/>
+Note that the <b>Play</b> and <b>Convert</b> buttons occupy the same space (in the upper right corner of the dialog); only one of them is visible at a given instant, depending upon which operation is appropriate for the set of parameters currently entered.
+<p/>
+<a name="filetypes"><h2>File Types</h2>
+The set of supported file types and conversions/operations is listed in the following tables:
+<p/>
+
+<dl>
+<dd>
+<table border=2 cellpadding=3>
+<tr>
+	<th align=center valign=middle>Type</th>
+	<th align=center valign=middle>Description</th>
+</tr>
+<tr>
+	<th align=center valign=middle>FSR</th>
+	<td valign=middle>Microsoft Flight Simluator Video</td>
+</tr>
+<tr>
+	<th align=center valign=middle>XML</th>
+	<td valign=middle>FSR file in text/XML format</td>
+</tr>
+<tr>
+	<th align=center valign=middle>NMEA</th>
+	<td valign=middle>NMEA Data Stream</td>
+</tr>
+<tr>
+	<th align=center valign=middle>GPX</th>
+	<td valign=middle>GPS eXchange Format</td>
+</tr>
+<tr>
+	<th align=center valign=middle>CTL</th>
+	<td valign=middle>Cetus Track Log (PalmOS PDB)</td>
+</tr>
+<tr>
+	<th align=center valign=middle>PNL</th>
+	<td valign=middle>Pathaway NMEA Log (PalmOS PDB)</td>
+</tr>
+<tr>
+	<th align=center valign=middle>STAT</th>
+	<td valign=middle>Statistical Dump of Simulator Parameters</td>
+</tr>
+</table>
+</dd>
+</dl>
+
+<p/>
+And here are the supported conversions/operations on these filetypes:
+<p/>
+
+<dl>
+<dd>
+<table border=2
+cellpadding=3>
+<tr>
+	<th rowspan=2 align=center valign=middle>Source<br/>Format</th>
+	<th colspan=8 align=center valign=middle>Destination Format (or <i>Play</i>back)</th>
+</tr>
+<tr>
+	<th align=center valign=middle><i>Play</i></th>
+	<th align=center valign=middle>FSR</th>
+	<th align=center valign=middle>XML</th>
+	<th align=center valign=middle>NMEA</th>
+	<th align=center valign=middle>STAT</th>
+</tr>
+<tr>
+	<th align=center valign=middle>FSR</th>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>X</td>
+</tr>
+<tr>
+	<th align=center valign=middle>XML</th>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>&nbsp;</td>
+</tr>
+<tr>
+	<th align=center valign=middle>NMEA</th>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>X</td>
+</tr>
+<tr>
+	<th align=center valign=middle>GPX</th>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>&nbsp;</td>
+</tr>
+<tr>
+	<th align=center valign=middle>CTL</th>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>&nbsp;</td>
+</tr>
+<tr>
+	<th align=center valign=middle>PNL</th>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>&nbsp;</td>
+	<td align=center valign=middle>X</td>
+	<td align=center valign=middle>&nbsp;</td>
+</tr>
+</table>
+</dd>
+</dl>
+
+</BODY>
+</HTML>

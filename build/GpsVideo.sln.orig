@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsrlib", "fsrlib\fsrlib.csproj", "{07BDFACF-B25C-445A-B8FE-16194DDC54EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsrwintool", "fsrwintool\fsrwintool.csproj", "{A8B58E7D-CA65-4C0A-9FF6-6203F299A8D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsrcmdtool", "fsrcmdtool\fsrcmdtool.csproj", "{A4A92B10-B56E-4B14-AAB7-9074E4B69847}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{7E2924BE-88E2-4CD3-B5E3-DD98EC3399A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{07BDFACF-B25C-445A-B8FE-16194DDC54EE}.Debug.ActiveCfg = Debug|.NET
+		{07BDFACF-B25C-445A-B8FE-16194DDC54EE}.Debug.Build.0 = Debug|.NET
+		{07BDFACF-B25C-445A-B8FE-16194DDC54EE}.Release.ActiveCfg = Release|.NET
+		{07BDFACF-B25C-445A-B8FE-16194DDC54EE}.Release.Build.0 = Release|.NET
+		{A8B58E7D-CA65-4C0A-9FF6-6203F299A8D0}.Debug.ActiveCfg = Debug|.NET
+		{A8B58E7D-CA65-4C0A-9FF6-6203F299A8D0}.Debug.Build.0 = Debug|.NET
+		{A8B58E7D-CA65-4C0A-9FF6-6203F299A8D0}.Release.ActiveCfg = Release|.NET
+		{A8B58E7D-CA65-4C0A-9FF6-6203F299A8D0}.Release.Build.0 = Release|.NET
+		{A4A92B10-B56E-4B14-AAB7-9074E4B69847}.Debug.ActiveCfg = Debug|.NET
+		{A4A92B10-B56E-4B14-AAB7-9074E4B69847}.Debug.Build.0 = Debug|.NET
+		{A4A92B10-B56E-4B14-AAB7-9074E4B69847}.Release.ActiveCfg = Release|.NET
+		{A4A92B10-B56E-4B14-AAB7-9074E4B69847}.Release.Build.0 = Release|.NET
+		{7E2924BE-88E2-4CD3-B5E3-DD98EC3399A9}.Debug.ActiveCfg = Debug
+		{7E2924BE-88E2-4CD3-B5E3-DD98EC3399A9}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

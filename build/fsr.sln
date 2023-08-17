@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fsrlib", "..\src\lib\fsrlib.csproj", "{EB69D9B9-5532-49A6-A20D-4EC4C186EA79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fsrwin", "..\src\wintool\fsrwin.csproj", "{162C80B2-ADAB-4D2C-9523-DE03B2ED03E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fsrcmd", "..\src\cmdtool\fsrcmd.csproj", "{DAD9B70E-CB33-477F-88B4-432CB196BDAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB69D9B9-5532-49A6-A20D-4EC4C186EA79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB69D9B9-5532-49A6-A20D-4EC4C186EA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB69D9B9-5532-49A6-A20D-4EC4C186EA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB69D9B9-5532-49A6-A20D-4EC4C186EA79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162C80B2-ADAB-4D2C-9523-DE03B2ED03E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162C80B2-ADAB-4D2C-9523-DE03B2ED03E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162C80B2-ADAB-4D2C-9523-DE03B2ED03E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162C80B2-ADAB-4D2C-9523-DE03B2ED03E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD9B70E-CB33-477F-88B4-432CB196BDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD9B70E-CB33-477F-88B4-432CB196BDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD9B70E-CB33-477F-88B4-432CB196BDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD9B70E-CB33-477F-88B4-432CB196BDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF353DF6-4955-402A-843B-019275F6A244}
+	EndGlobalSection
+EndGlobal
